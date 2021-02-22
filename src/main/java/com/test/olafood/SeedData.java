@@ -106,7 +106,7 @@ public class SeedData implements ApplicationListener<ApplicationReadyEvent>{
 		meal.setName(name);
 		meal.setPrice(price);
 		meal.setTimeToPepare("15 mins");
-		meal.setPictureUrl("");
+		meal.setPictureUrl("https://media-cdn.tripadvisor.com/media/photo-s/1a/2a/94/bc/saviour-african-food.jpg");
 		foodService.createMeal(meal);
 	}
 
